@@ -46,6 +46,17 @@
       border:0;color:#fff;
       box-shadow:0 6px 20px rgba(24,160,88,.25);
     }
+
+html, body {
+      overflow-x: hidden;
+    }
+
+    /* Ensure content doesn't overflow */
+    * {
+      box-sizing: border-box;
+      max-width: 100%;
+    }
+
     .btn-brand:hover{background:linear-gradient(135deg,var(--brand-600),var(--brand));color:#fff;}
     .text-brand{color:var(--brand)!important;}
     .bg-brand-50{background:var(--brand-50);}
